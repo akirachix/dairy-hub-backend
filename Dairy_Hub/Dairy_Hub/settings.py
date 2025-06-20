@@ -39,11 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'suppliers',
     'farmers',
+    'payments'
     'orders',
-    'orderItems'
-=======
+    'orderItems',
     'products',
-
 ]
 
 MIDDLEWARE = [
