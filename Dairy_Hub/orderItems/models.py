@@ -1,6 +1,7 @@
 from django.db import models
 from orders.models import orders
 from suppliers.models import Supplier
+from products.models import Product
 
 
 # Create your models here.

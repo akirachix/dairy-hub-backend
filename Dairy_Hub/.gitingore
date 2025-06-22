@@ -3,3 +3,7 @@
 *.pyc/
 =======
 >>>>>>> abf43463235c89ed2a243007bcaaba6c5b435dc4
+habaenv/
+__pycache__/
+*.pyc/
+db.sqlite3
