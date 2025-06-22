@@ -9,6 +9,6 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2)
     stock = models.IntegerField()
     supplier = models.ForeignKey(Supplier, on_delete=models.CASCADE)
-    product_image_url = models.ImageField(upload_to='products/', null=True, blank=True)
+    product_image_url = models.URLField(max_length=500)
     def __str__(self):
         return self.name
