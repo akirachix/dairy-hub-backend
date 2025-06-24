@@ -1,4 +1,5 @@
 from django.db import models
+
 from suppliers.models import Supplier
 
 # Create your models here.
@@ -8,7 +9,8 @@ class Product(models.Model):
     description = models.TextField()
     price = models.DecimalField(max_digits=10, decimal_places=2)
     stock = models.IntegerField()
-    supplier = models.ForeignKey(Supplier, on_delete=models.CASCADE)
+    supplierid = models.ForeignKey(Supplier, on_delete=models.CASCADE)
     product_image_url = models.URLField(max_length=500)
+    
     def __str__(self):
         return self.name
