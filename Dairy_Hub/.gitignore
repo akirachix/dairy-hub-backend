@@ -1,0 +1,9 @@
+*.pyc
+db.sqlite3
+suppliers/__pycache__/
+farmers/__pycache__/
+orders/__pycache__/
+orderitems/__pycache__/
+payments/__pycache__/
+products/__pycache__/
+
